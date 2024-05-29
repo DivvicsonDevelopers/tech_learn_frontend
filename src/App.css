@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: "red";
+  font-family: "Poppins", "Montserrat", sans-serif;
+   /* font-family: "Jacquard 12 Charted", system-ui; */
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
