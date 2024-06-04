@@ -1,9 +1,8 @@
-import { Box, Flex, Image, Text } from '@chakra-ui/react'
-import { CustomButton } from '../../../components/CustomButton'
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { CustomButton } from "../../../components/CustomButton";
 import { TiArrowRight } from "react-icons/ti";
-import Clock from "../../../assets/clock.png"
-import LimitCircle from "../../../assets/LinitCircle.png"
-
+import Clock from "../../../assets/clock.png";
+import LimitCircle from "../../../assets/LinitCircle.png";
 
 const OpportunityPage = () => {
   return (
@@ -18,7 +17,7 @@ const OpportunityPage = () => {
         alignItems={"center"}
         flexDir={["column", "column", "column", "row"]}
       >
-        <Box>
+        <Box data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
           <Box position={"relative"} mb={["70px"]}>
             <Text
               fontSize={["25px", "25px", "25px", "30px"]}
@@ -46,12 +45,12 @@ const OpportunityPage = () => {
             px="50px"
           />
         </Box>
-        <Box>
+        <Box data-aos="fade-left" data-aos-duration="700" data-aos-delay="150">
           <Image src={Clock} height={["300px", "400px", "400px", "500px"]} />
         </Box>
       </Flex>
     </Box>
   );
-}
+};
 
-export default OpportunityPage
+export default OpportunityPage;

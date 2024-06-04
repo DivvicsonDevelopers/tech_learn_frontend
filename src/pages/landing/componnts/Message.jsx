@@ -11,16 +11,21 @@ const Message = () => {
       <Flex
         justifyContent={"space-between"}
         alignItems={"center"}
-        gap={["20px", "20px", "20px", "0px"]}
+        gap={["20px", "20px", "20px", "50px"]}
         flexDir={["column", "column", "column", "row"]}
       >
         <Box
           w={["300px", "300px", "300px", "500px"]}
           h={["300px"]}
+          data-aos="fade-right"
+          data-aos-duration="700"
+          data-aos-delay="150"
           bg={"red"}
         ></Box>
 
-        <Box>
+        <Box   data-aos="fade-left"
+      data-aos-duration="700"
+      data-aos-delay="150">
           <Text fontSize={"30px"} fontWeight={"500"} pb="30px">
             A Personal Message From Our CEO
           </Text>

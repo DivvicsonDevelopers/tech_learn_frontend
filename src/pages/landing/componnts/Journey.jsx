@@ -23,10 +23,10 @@ const Journey = () => {
         alignItems={"center"}
         flexDir={["column", "column", "column", "row"]}
       >
-        <Box>
+        <Box data-aos="fade-right" data-aos-duration="700" data-aos-delay="150">
           <Image src={journey} height={["400px", "400px", "400px", "500px"]} />
         </Box>
-        <Box>
+        <Box data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
           <Text fontSize={["25px", "25px", "25px", "40px"]}>
             Your Journey At Divvicson: What to Expect.
           </Text>

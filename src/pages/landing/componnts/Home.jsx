@@ -1,27 +1,25 @@
-import { Box, Text} from '@chakra-ui/react'
-import { CustomButton } from '../../../components/CustomButton';
-import { useState } from 'react';
+import { Box, Text } from "@chakra-ui/react";
+import { CustomButton } from "../../../components/CustomButton";
+import { useState } from "react";
 
 const Home = () => {
-   const [color, setColor] = useState("red");
-   const colors = [
-    "purple",
-    "blue",
-    "yellow"
-   ];
+  const [color, setColor] = useState("red");
+  const colors = ["purple", "blue", "yellow"];
 
-   setInterval(()=>{
-  // setColor(colors[Math.floor(Math.random() * colors.length)+1]);
-  setColor(colors[(colors.indexOf(color)+1)%colors.length])
-  // setColor(randomColor)
- },2000)
+  setInterval(() => {
+    // setColor(colors[Math.floor(Math.random() * colors.length)+1]);
+    setColor(colors[(colors.indexOf(color) + 1) % colors.length]);
+    // setColor(randomColor)
+  }, 2000);
 
-      
   return (
     <Box>
       <Box
         p={["20px 30px", "20px 30px", "20px 30px", "20px 150px"]}
         textAlign={"center"}
+        data-aos="fade-up"
+        data-aos-duration="200"
+        data-aos-delay="150"
       >
         <Text
           fontSize={["40px", "40px", "40px", "60px"]}
@@ -54,6 +52,6 @@ const Home = () => {
       </Box>
     </Box>
   );
-}
+};
 
-export default Home
+export default Home;

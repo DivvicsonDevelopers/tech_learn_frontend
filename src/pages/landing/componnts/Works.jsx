@@ -11,7 +11,9 @@ const Works = () => {
       mt="30px"
       fontFamily={"sourceSansPro-rg"}
     >
-      <Box mb="30px" textAlign={"center"}>
+      <Box mb="30px" textAlign={"center"}   data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-delay="150">
         <Text fontSize={["25px", "25px", "25px", "40px"]} pb="10px">
           Why Divvicson Works
         </Text>
@@ -33,14 +35,18 @@ const Works = () => {
         mt="70px"
         flexDir={["column", "column", "column", "row"]}
       >
-        <Box>
+        <Box   data-aos="fade-left"
+      data-aos-duration="700"
+      data-aos-delay="150">
           <Image
             src={Experienced}
             width={"500px"}
             h={["400px", "400px", "400px", "500px"]}
           />
         </Box>
-        <Flex flexDir={"column"} gap={"20px"}>
+        <Flex flexDir={"column"} gap={"20px"}   data-aos="fade-left"
+      data-aos-duration="700"
+      data-aos-delay="150">
           <Image src={Engage} />
           <Image src={Diverse} />
         </Flex>

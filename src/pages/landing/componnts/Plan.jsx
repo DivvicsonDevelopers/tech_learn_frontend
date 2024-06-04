@@ -12,7 +12,9 @@ const Plan = () => {
       mt="30px"
       fontFamily={"sourceSansPro-rg"}
     >
-      <Box mb="30px" textAlign={"center"}>
+      <Box mb="30px" textAlign={"center"}   data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-delay="150">
         <Text fontSize={["30px", "30px", "30px", "40px"]} pb="10px" maxWidth={"500px"} margin={"0px auto"}>
           Embrace Boundless Learning at a Budget
         </Text>
@@ -34,6 +36,9 @@ const Plan = () => {
           px={"25px"}
           py={"35px"}
           flex={1.5}
+          data-aos="fade-right"
+          data-aos-duration="700"
+          data-aos-delay="150"
         >
           <Flex justifyContent={"space-between"} alignItems={"center"}>
             <Badge bg={"#ECEBFF"} borderRadius={"20px"} p={"5px"}>
@@ -95,6 +100,9 @@ const Plan = () => {
           px={"25px"}
           py={"35px"}
           flex={2}
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-delay="150"
         >
           <Flex justifyContent={"space-between"} alignItems={"center"}>
             <Badge bg={"#ECEBFF"} borderRadius={"20px"} p={"5px"}>
