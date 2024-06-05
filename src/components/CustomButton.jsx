@@ -1,10 +1,10 @@
-import { Button } from "@chakra-ui/button"
-import { useNavigate }from "react-router-dom"
-// import React from "react"
+/* eslint-disable react/prop-types */
+import { Button, } from "@chakra-ui/button"
+import { Link  }from "react-router-dom"
 
-export const CustomButton = ({leftIcon,py,px,bg,color,hover,onClick,borderRadius,border,mr,w,btnText,fontSize,my}) => {
-   const navigate = useNavigate()
+export const CustomButton = ({leftIcon,py,px,bg,color,hover,borderRadius,border,mr,w,btnText,fontSize,my}) => {
   return (
+    <Link to="http://user.divvicsontechlearn.com/" isExternal>
     <Button
       leftIcon={leftIcon}
       fontSize={fontSize || "1rem"}
@@ -14,11 +14,9 @@ export const CustomButton = ({leftIcon,py,px,bg,color,hover,onClick,borderRadius
       bg={bg}
       color={color}
       _hover={{ hover }}
-      onClick={()=>{
-       navigate("/pre-login")
-      }}
       borderRadius={borderRadius}
       border={border}
+      
       mr={mr}
       my={my}
       w={w}
@@ -26,5 +24,6 @@ export const CustomButton = ({leftIcon,py,px,bg,color,hover,onClick,borderRadius
     >
       {btnText}
     </Button>
+    </Link>
   );
 }

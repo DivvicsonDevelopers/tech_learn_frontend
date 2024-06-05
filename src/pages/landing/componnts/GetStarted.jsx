@@ -1,7 +1,6 @@
-import { Box, Flex, Image, Text } from '@chakra-ui/react'
-import line from "../../../assets/line-7.png"
-import { getStartedData } from './getStartedData';
-
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import line from "../../../assets/line-7.png";
+import { getStartedData } from "./getStartedData";
 
 const GetStarted = () => {
   return (
@@ -10,7 +9,13 @@ const GetStarted = () => {
       mt="30px"
       fontFamily={"sourceSansPro-rg"}
     >
-      <Box mb={["30px"]} textAlign={"center"}>
+      <Box
+        mb={["30px"]}
+        textAlign={"center"}
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="150"
+      >
         <Text fontSize={["25px", "25px", "25px", "40px"]} pb="10px">
           How Can You Get Started?
         </Text>
@@ -34,6 +39,9 @@ const GetStarted = () => {
         gap={["20px", "20px", "20px", "40px"]}
         alignItems={"center"}
         flexDir={["column", "column", "column", "row"]}
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="150"
       >
         {getStartedData.map((datum) => {
           return (
@@ -58,6 +66,6 @@ const GetStarted = () => {
       </Flex>
     </Box>
   );
-}
+};
 
-export default GetStarted
+export default GetStarted;

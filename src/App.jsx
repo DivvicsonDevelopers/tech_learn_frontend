@@ -6,9 +6,16 @@ import Landing from "../src/pages/landing/Index"
 import Pricing from "../src/pages/Pricing/Index"
 import Footer from './pages/landing/componnts/Footer';
 import PreLogin from './pages/PreLogin';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, once: false, startEvent: "load" });
+  }, []);
+
  
 
   return (

@@ -9,6 +9,9 @@ const Reasons = () => {
       mt="30px"
       p={["20px 30px", "20px 30px", "20px 30px", "20px 150px"]}
       textAlign={"center"}
+      data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-delay="150"
     >
       <Box mb="30px">
         <Text fontSize={["30px", "30px", "30px", "40px"]} pb="10px">
@@ -36,6 +39,10 @@ const Reasons = () => {
                 border={"1px solid #ECEBFF"}
                 padding={"20px"}
                 borderRadius={"20px"}
+                textAlign={"center"}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
               >
                 <Text
                   fontSize={["25px", "25px", "25px", "30px"]}

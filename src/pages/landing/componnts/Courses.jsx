@@ -1,7 +1,7 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { coursesCard } from "./coursesCard";
-import Calender from "../../../assets/CalendarBlank.png"
-import HourglassHigh from "../../../assets/HourglassHigh.png"
+import Calender from "../../../assets/CalendarBlank.png";
+import HourglassHigh from "../../../assets/HourglassHigh.png";
 import { CustomButton } from "../../../components/CustomButton";
 
 const Courses = () => {
@@ -11,7 +11,13 @@ const Courses = () => {
       mt="30px"
       fontFamily={"sourceSansPro-rg"}
     >
-      <Box mb="30px" textAlign={"center"}>
+      <Box
+        mb="30px"
+        textAlign={"center"}
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="150"
+      >
         <Text fontSize={["30px", "30px", "30px", "40px"]} pb="10px">
           Popular Courses
         </Text>
@@ -29,6 +35,9 @@ const Courses = () => {
         gap={"20px"}
         justifyContent={"space-between"}
         flexDir={["column", "column", "column", "row"]}
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="150"
       >
         {coursesCard.map((course) => {
           return (
@@ -57,7 +66,7 @@ const Courses = () => {
                   <Image src={Calender} />
                   <Text>{course?.duration}</Text>
                 </Flex>
-                
+
                 <Flex gap={"5px"} alignItems={"center"}>
                   <Image src={HourglassHigh} />
                   <Text>{course?.time}</Text>
