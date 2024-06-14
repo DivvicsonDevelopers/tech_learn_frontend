@@ -1,7 +1,8 @@
-import { Box, Text } from '@chakra-ui/react'
+import { Box, Image, Text } from '@chakra-ui/react'
 import UserPlan from './components/UserPlan';
 import FaqsPage from './components/FaqsPage';
 // import Footer from "../../../src/pages/landing/componnts/Footer"
+import Frame from "../../assets/frame.png"
 
 
 const Index = () => {
@@ -19,6 +20,9 @@ const Index = () => {
           </Text>
         </Box>
         <UserPlan />
+        <Box my="40px">
+          <Image src={Frame} />
+        </Box>
         <FaqsPage />
         {/* <Footer /> */}
       </Box>

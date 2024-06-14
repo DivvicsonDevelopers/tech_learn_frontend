@@ -25,7 +25,7 @@ function NavigationOptions({ title }) {
         alignItems={"center"}
         cursor="pointer"
       >
-        <Text color="#3C0B71">{title}</Text>
+        <Text color="#202020">{title}</Text>
         <IoIosArrowDown />
       </Flex>
 
@@ -78,10 +78,10 @@ function NavigationOptions({ title }) {
               w={"100%"}
             >
               <Box w={"100%"} bg={"#fff"} px={"20px"} flex={1.5} py="20px">
-                <Text pb="15px" color={"#170F49"}>
+                <Text pb="15px"  color={"#05A51F"} fontWeight={800}>
                   All Courses
                 </Text>
-                <Flex gap={"30px"} color={"#2821AB"}>
+                <Flex gap={"30px"} color={"#202020"} >
                   <Flex
                     gap={"10px"}
                     w="100%"
@@ -130,51 +130,51 @@ function NavigationOptions({ title }) {
               </Box>
 
               <Box w={"100%"} px={"20px"} bg="#F7F7FB" flex={1} py={"20px"}>
-                <Text pb="15px">Check Our Trending Courses</Text>
+                <Text pb="15px" color={"#05A51F"} fontWeight={800}>Check Our Trending Courses</Text>
                 <Flex gap={"20px"} w="100%" mb="5px" alignItems={"center"}>
                   <Image src={Web} h={"70px"} />
-                  <Box>
+                  <Box color={"#B88A68"}>
                     <Link to={"/pre-login"}>
                       <Flex alignItems={"center"}>
-                        <Text fontSize={"15px"} color={"#4A3AFF"}>
+                        <Text fontSize={"15px"}>
                           Web Development
                         </Text>
-                        <TiArrowRight size={20} color="#4A3AFF" />
+                        <TiArrowRight size={20} />
                       </Flex>
                     </Link>
-                    <Text fontSize={"12px"} color={"#1A1489"}>
+                    <Text fontSize={"12px"} color={"#202020"}>
                       Master Front-end and Back-end
                     </Text>
                   </Box>
                 </Flex>
                 <Flex gap={"20px"} w="100%" mb="5px" alignItems={"center"}>
                   <Image src={Design} h={"70px"} />
-                  <Box>
+                  <Box color={"#B88A68"}>
                     <Link to={"/pre-login"}>
                       <Flex alignItems={"center"}>
-                        <Text fontSize={"15px"} color={"#170F49"}>
+                        <Text fontSize={"15px"}>
                           Product Design
                         </Text>
-                        <TiArrowRight size={20} color="#4A3AFF" />
+                        <TiArrowRight size={20}/>
                       </Flex>
                     </Link>
-                    <Text fontSize={"12px"} color={"#1A1489"}>
+                    <Text fontSize={"12px"} color={"#202020"}>
                       Learn user-centered design
                     </Text>
                   </Box>
                 </Flex>
                 <Flex gap={"20px"} w="100%" align={"center"}>
                   <Image src={Management} h={"70px"} />
-                  <Box>
+                  <Box color={"#B88A68"}>
                     <Link to={"/pre-login"}>
                       <Flex align={"center"}>
-                        <Text fontSize={"15px"} color={"#170F49"}>
+                        <Text fontSize={"15px"}>
                           Product Management
                         </Text>
-                        <TiArrowRight size={20} color="#4A3AFF" />
+                        <TiArrowRight size={20} />
                       </Flex>
                     </Link>
-                    <Text fontSize={"12px"} color={"#1A1489"}>
+                    <Text fontSize={"12px"} color={"#202020"}>
                       Develop skills to strategize tech product
                     </Text>
                   </Box>
@@ -194,10 +194,10 @@ function NavigationOptions({ title }) {
               // bg={"green"}
               // borderRadius={"5px"}
             >
-              <Text pb="15px" color={"#170F49"}>
+              <Text pb="15px" color={"#05A51F"} fontWeight={800}>
                 Resources
               </Text>
-              <Flex gap={"10px"} color={"#2821AB"} w={"100%"}>
+              <Flex gap={"10px"} color={"#202020"}w={"100%"}>
                 <Flex
                   gap={"10px"}
                   w="100%"
@@ -247,10 +247,10 @@ function NavigationOptions({ title }) {
               // bg={"green"}
               // borderRadius={"5px"}
             >
-              <Text pb="15px" color={"#170F49"}>
+              <Text pb="15px" color={"#05A51F"} fontWeight={800}>
                 Curriculum
               </Text>
-              <Flex gap={"10px"} color={"#2821AB"} w={"100%"}>
+              <Flex gap={"10px"} color={"#202020"} w={"100%"}>
                 <Flex
                   gap={"10px"}
                   w="100%"

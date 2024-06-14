@@ -35,12 +35,13 @@ const FaqsPage = () => {
               {({ isExpanded }) => (
                 <>
                   <h2>
-                    <AccordionButton>
+                    <AccordionButton _expanded={{ bg: "#05A51F", color: 'white' }}>
                       <Box
                         as="span"
                         flex="1"
+                        border={"nonen"}
                         textAlign="left"
-                        color={"#1A0031"}
+                        // color={"#1A0031"}
                         fontSize={"1rem"}
                         fontWeight={"semibold"}
                         py={"7px"}

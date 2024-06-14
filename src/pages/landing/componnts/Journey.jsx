@@ -86,7 +86,7 @@ const Journey = () => {
           <CustomButton
             btnText={"Enroll Today"}
             rightIcon={<TiArrowRight size={25} />}
-            bg={"#1A1489"}
+            
             color={"#fff"}
             px={"50px"}
           />

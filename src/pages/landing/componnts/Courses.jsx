@@ -75,7 +75,7 @@ const Courses = () => {
               <CustomButton
                 w="full"
                 btnText={"Download Syllabus"}
-                border={"1px solid #9F9BF5"}
+                border={"1px solid #05A51F"}
                 borderRadius={"10px"}
                 bg={"none"}
               />

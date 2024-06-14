@@ -11,9 +11,9 @@ export const CustomButton = ({leftIcon,py,px,bg,color,hover,borderRadius,border,
       fontFamily={"sourceSansPro-rg"}
       py={py}
       px={px}
-      bg={bg}
+    bg={bg || "#05A51F"}
       color={color}
-      _hover={{ hover }}
+      _hover={{ border:"1px solid #05A51F" }}
       borderRadius={borderRadius}
       border={border}
       

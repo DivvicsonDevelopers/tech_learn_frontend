@@ -40,12 +40,11 @@ const Home = () => {
           fontFamily={"sourceSansPro-rg"}
         >
           Are you ready to embark on a journey of limitless possibilities? At
-          Divvicson, we're here to empower you with the knowledge and skills to
+          Divvicson, we&apos;re here to empower you with the knowledge and skills to
           thrive in the ever-evolving world of technology.
         </Text>
         <CustomButton
           btnText={"Get Started"}
-          bg={"#1A1489"}
           px={"50px"}
           color={"#fff"}
         />

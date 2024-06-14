@@ -35,13 +35,12 @@ const OpportunityPage = () => {
           </Box>
           <Text fontSize={"18px"} maxW={"600px"} pb="70px">
             In the vast realm of tech, there are no boundaries. Dare to dream
-            big, and we’ll guide you towards success.
+            big, and we&apos;ll guide you towards success.
           </Text>
           <CustomButton
             color={"#fff"}
             btnText={"Start Your Journey"}
             rightIcon={<TiArrowRight size={25} />}
-            bg={"#1A1489"}
             px="50px"
           />
         </Box>
