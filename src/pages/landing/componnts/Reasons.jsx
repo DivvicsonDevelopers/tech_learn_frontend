@@ -15,16 +15,16 @@ const Reasons = () => {
     >
       <Box mb="30px">
         <Text fontSize={["30px", "30px", "30px", "40px"]} pb="10px">
-          Not sure why you’re here?
+          Not sure why you&apos;re here?
         </Text>
         <Text
           fontSize={["18px", "18px", "18px", "20px"]}
           maxW={"900px"}
           margin={"auto"}
         >
-          If you’ve found yourself on this page and you’re unsure about what
-          steps to take , don’t worry- you’re not alone. Below are options to
-          help you out while you’re here.
+          If you&apos;ve found yourself on this page and you&apos;re unsure about what
+          steps to take , dont&apos; worry- you&apos;re not alone. Below are options to
+          help you out while you&apos;re here.
         </Text>
       </Box>
       <Flex
@@ -65,7 +65,7 @@ const Reasons = () => {
                       ? "Start Learning Today"
                       : "Explore Now"
                   }
-                  bg={"#1A1489"}
+                 
                 />
               </Box>
             </Flex>

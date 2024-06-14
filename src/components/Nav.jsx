@@ -1,4 +1,4 @@
-import { Box, Flex, Img, Text } from "@chakra-ui/react";
+import {  Flex, Img, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png"
 import MobileHamBugerNav from "./MobileHamBurgerNav";
@@ -22,7 +22,7 @@ const  Navigation =()=> {
     >
       <Link to={"/"}>
         <Flex gap={"2"} alignItems={"center"}>
-          <Img loading="lazy" src={logo} alt="logo" w={["100%", "100%"]} />
+          <Img loading="lazy" src={logo} alt="logo" w={"100px"} />
         </Flex>
       </Link>
 
@@ -50,11 +50,12 @@ const  Navigation =()=> {
           gap="50px"
         >
           <CustomButton
-            color={"#1A1489"}
-            btnText={"Login"}
+            
+            color={"#05A51F"}
+            btnText={"Get Started"}
             px="35px"
             bg={"none"}
-            leftIcon={<IoLockClosedOutline color="#1A1489" />}
+            leftIcon={<IoLockClosedOutline  />}
           />
         </Flex>
       </>

@@ -1,8 +1,10 @@
-import { Box, Flex, Input, Text } from "@chakra-ui/react";
+import { Box, Flex, Img, Input, Text } from "@chakra-ui/react";
 import { CustomButton } from "../../../components/CustomButton";
 import { useState } from "react";
 import { successNotifier } from "../../../components/notifier";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import logo from '../../../assets/foot.png'
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -34,7 +36,7 @@ const Footer = () => {
   }
   return (
     <Box
-      bg={"#080638"}
+      bg={"#05A51F"}
       color={"#fff"}
       p={["20px 30px", "20px 30px", "20px 30px", "20px 150px"]}
       mt="70px"
@@ -47,9 +49,11 @@ const Footer = () => {
         flexDir={["column-reverse", "column-reverse", "column-reverse", "row"]}
       >
         <Box>
-          <Text fontSize={"25px"} fontWeight={"bold"} pb={"20px"}>
-            Divvicson
-          </Text>
+        <Link to={"/"}>
+        <Flex gap={"2"} alignItems={"center"}>
+          <Img loading="lazy" src={logo} alt="logo" w={"150px"} />
+        </Flex>
+      </Link>
           <Box mb="20px">
             <Text>copyright @ 2023 Divvicson</Text>
             <Text>All Right Reserved</Text>
@@ -66,13 +70,14 @@ const Footer = () => {
               type="email"
               name="email"
               value={email}
+              bg={"#fff"}
               placeholder="Enter your email address"
               onChange={handleChange}
             />
             <CustomButton
               btnText={"Subscribe"}
-              bg={"#1A1489"}
-              color={"#fff"}
+              bg={"#fff"}
+              
               border={"none"}
               onClick={handleSubmit}
             />

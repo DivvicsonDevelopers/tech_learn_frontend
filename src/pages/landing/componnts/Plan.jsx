@@ -87,7 +87,7 @@ const Plan = () => {
               color={"#fff"}
               btnText={"Get Started"}
               rightIcon={<TiArrowRight size={25} />}
-              bg={"#1A1489"}
+              
               px="50px"
               borderRadius={"15px"}
             />
@@ -96,7 +96,8 @@ const Plan = () => {
 
         <Box
           borderRadius={"20px"}
-          bg={"#080638"}
+          // bg={""}
+          bgGradient='radial( #05A51F, #023F0C)' 
           px={"25px"}
           py={"35px"}
           flex={2}
@@ -123,14 +124,14 @@ const Plan = () => {
             <Text fontSize={"25px"} fontWeight={"bold"} color={"#ECEBFF"}>
               Premium Plan
             </Text>
-            <Text color={"#9F9BF5"}>
+            <Text color={"#ECEBFF"}>
               Our Standard Plan provides access to tech courses. With a monthly
               subscription of 45,000 Naira
             </Text>
           </Box>
           <Flex
             mb="30px"
-            color={"#9F9BF5"}
+            color={"#ECEBFF"}
             gap={["20px", "20px", "20px", "100px"]}
           >
             <Flex mb="5px" flexDir={"column"}>
@@ -174,10 +175,12 @@ const Plan = () => {
 
           <Flex justifyContent={["center", "center", "center", "start"]}>
             <CustomButton
-              color={"#fff"}
+              color={"#05A51F"}
+              border={"1px solid #05A51F"}
               btnText={"Get Started"}
               rightIcon={<TiArrowRight size={25} />}
-              bg={"#1A1489"}
+              bg={"#fff"}
+             
               px="50px"
               borderRadius={"15px"}
             />
