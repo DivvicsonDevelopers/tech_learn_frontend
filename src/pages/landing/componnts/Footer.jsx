@@ -1,33 +1,36 @@
-import { Box, Flex, Img, Input, Text } from "@chakra-ui/react";
-import { CustomButton } from "../../../components/CustomButton";
+import { Box, Button, Flex, Img, Input, Text } from "@chakra-ui/react";
 import { useState } from "react";
-import { successNotifier } from "../../../components/notifier";
+import { errorNotifier, successNotifier } from "../../../components/notifier";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import logo from '../../../assets/foot.png'
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  const [formData, setFormData] = useState({
+    email:"",
+  });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setEmail((prev) => ({ ...prev, [name]: value }));
+    const {name, value}= e.target
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
+
   const handleSubmit= async (e)=>{
     e.preventDefault()
     try {
-      const response = await axios.patch(
-        `https://techlearn-backend.onrender.com/api/v1/course/add-module/${courseId}`,
-        email,
+      const response = await axios.post(
+        `https://techlearn-backend.onrender.com/api/v1/admin/subscribe`,
+       
+        formData,
         {
           headers: {
-            authorization: `Bearer ${token}`,
+            // authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
           },
         }
       );
-      setResponse(response?.data); // Save the entire response object
       // navigate("/lesson",{state: responseData})
-      successNotifier("Module Created Successfully");
+      successNotifier(" Subscription Successful");
     } catch (error) {
       errorNotifier(error?.message);
       console.error("Error:", error);
@@ -69,18 +72,19 @@ const Footer = () => {
             <Input
               type="email"
               name="email"
-              value={email}
+              value={formData?.email}
               bg={"#fff"}
               placeholder="Enter your email address"
               onChange={handleChange}
             />
-            <CustomButton
-              btnText={"Subscribe"}
+            <Button
               bg={"#fff"}
               
               border={"none"}
               onClick={handleSubmit}
-            />
+            >
+              subscribe
+              </Button>
           </Flex>
         </Box>
         <Box>
