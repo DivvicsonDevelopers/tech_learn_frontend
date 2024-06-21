@@ -4,7 +4,7 @@ import { Link  }from "react-router-dom"
 
 export const CustomButton = ({leftIcon,py,px,bg,color,hover,borderRadius,border,mr,w,btnText,fontSize,my}) => {
   return (
-    <Link to="http://user.divvicsontechlearn.com/" isExternal>
+    <Link to="https://user.intellio.academy/" isExternal>
     <Button
       leftIcon={leftIcon}
       fontSize={fontSize || "1rem"}
