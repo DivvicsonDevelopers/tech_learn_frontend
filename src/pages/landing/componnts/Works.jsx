@@ -15,7 +15,7 @@ const Works = () => {
       data-aos-duration="700"
       data-aos-delay="150">
         <Text fontSize={["25px", "25px", "25px", "40px"]} pb="10px">
-          Why Divvicson Works
+          Why Intellio Works
         </Text>
         <Text
           fontSize={["18px", "18px", "18px", "20px"]}

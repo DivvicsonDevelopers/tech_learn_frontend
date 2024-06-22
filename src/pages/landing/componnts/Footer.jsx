@@ -58,13 +58,13 @@ const Footer = () => {
         </Flex>
       </Link>
           <Box mb="20px">
-            <Text>copyright @ 2023 Divvicson</Text>
+            <Text>copyright @ 2023 Intellio</Text>
             <Text>All Right Reserved</Text>
           </Box>
           <Box>
             <Text>Suscribe to Our Newsletter</Text>
             <Text pb="20px">
-              As you embark on this journey, we have exciting thingsin store for
+              As you embark on this journey, we have exciting things in store for
               you!
             </Text>
           </Box>

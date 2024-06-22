@@ -58,6 +58,10 @@ const UserPlan = () => {
               <Image src={CheckCircle} />
               <Text>Certificate of Completion</Text>
             </Flex>
+            <Flex alignItems={"center"} gap={"10px"} mb="5px">
+              <Image src={CheckCircle} />
+              <Text>Access to GenZStarsHub(Study Center)</Text>
+            </Flex>
           </Box>
           <Flex justifyContent={["center", "center", "center", "start"]}>
             <CustomButton
@@ -77,7 +81,7 @@ const UserPlan = () => {
           bgGradient='radial( #05A51F, #023F0C)'
           px={"25px"}
           py={"35px"}
-          flex={2}
+          flex={3}
           color={"#fff"}
         >
           <Flex justifyContent={"space-between"} alignItems={"center"}>
@@ -104,47 +108,58 @@ const UserPlan = () => {
               subscription of 45,000 Naira
             </Text>
           </Box>
+
+
           <Flex
             mb="30px"
             
-            gap={["20px", "20px", "20px", "100px"]}
+            gap={["20px", "20px", "20px", "10px"]}
           >
             <Flex mb="5px" flexDir={"column"} >
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>All Standard Plan Features</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Live One-on-One Classes</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Personalized Learning Path</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Advanced Project Portfolio</Text>
               </Flex>
+              <Flex alignItems={"center"} gap={"10px"} mb="5px">
+              <Image src={StandardChecked}  h={"20px"}/>
+              <Text>Access to GenZStarsHub(Study Center)</Text>
+            </Flex>
             </Flex>
 
             <Flex mb="5px" flexDir={"column"}>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Internship Placement</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Portfolio Reviews</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Personalized Feedbacks</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked}  h={"20px"}/>
                 <Text>Certificate of Completion</Text>
               </Flex>
+              <Flex alignItems={"center"} gap={"10px"} mb="5px">
+              <Image src={StandardChecked} h={"20px"}/>
+              <Text>3 months paid internship placement</Text>
+            </Flex>
+
             </Flex>
           </Flex>
 
