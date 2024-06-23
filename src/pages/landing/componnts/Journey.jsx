@@ -28,7 +28,7 @@ const Journey = () => {
         </Box>
         <Box data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
           <Text fontSize={["25px", "25px", "25px", "40px"]}>
-            Your Journey At Divvicson: What to Expect.
+            Your Journey At Intellio: What to Expect.
           </Text>
           <Text fontSize={"18px"} py="20px">
             As you embark on this journey, we have exciting things in store for

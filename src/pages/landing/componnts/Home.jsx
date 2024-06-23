@@ -40,7 +40,7 @@ const Home = () => {
           fontFamily={"sourceSansPro-rg"}
         >
           Are you ready to embark on a journey of limitless possibilities? At
-          Divvicson, we&apos;re here to empower you with the knowledge and skills to
+          Intellio, we&apos;re here to empower you with the knowledge and skills to
           thrive in the ever-evolving world of technology.
         </Text>
         <CustomButton

@@ -23,7 +23,7 @@ const Plan = () => {
           maxW={"900px"}
           margin={"auto"}
         >
-          Discover affordable pricing options at Divvicson Tech Academy,
+          Discover affordable pricing options at Intellio Tech Academy,
           empowering you to unleash your full potential in tech with accessible
           and value-packed learning plans. Enroll now and embark on your
           transformative tech journey.
@@ -81,6 +81,10 @@ const Plan = () => {
               <Image src={CheckCircle} />
               <Text>Certificate of Completion</Text>
             </Flex>
+            <Flex alignItems={"center"} gap={"10px"} mb="5px">
+              <Image src={CheckCircle} />
+              <Text>Access to GenZStarsHub(Study Centers)</Text>
+            </Flex>
           </Box>
           <Flex justifyContent={["center", "center", "center", "start"]}>
             <CustomButton
@@ -100,7 +104,7 @@ const Plan = () => {
           bgGradient='radial( #05A51F, #023F0C)' 
           px={"25px"}
           py={"35px"}
-          flex={2}
+          flex={3}
           data-aos="fade-left"
           data-aos-duration="700"
           data-aos-delay="150"
@@ -131,45 +135,57 @@ const Plan = () => {
           </Box>
           <Flex
             mb="30px"
+            w={"full"}
             color={"#ECEBFF"}
-            gap={["20px", "20px", "20px", "100px"]}
+            justify={"space-between"}
+            
+            // gap={["20px", "20px", "20px", "50px"]}
           >
             <Flex mb="5px" flexDir={"column"}>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"} />
                 <Text>All Standard Plan Features</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Live One-on-One Classes</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Personalized Learning Path</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Advanced Project Portfolio</Text>
               </Flex>
+              <Flex alignItems={"center"} gap={"10px"} mb="5px">
+              <Image src={StandardChecked} h={"20px"}/>
+              <Text>Access to GenZStarsHub(Study Centers)</Text>
+            </Flex>
             </Flex>
 
             <Flex mb="5px" flexDir={"column"}>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Internship Placement</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Portfolio Reviews</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Personalized Feedbacks</Text>
               </Flex>
               <Flex alignItems={"center"} gap={"10px"} mb="5px">
-                <Image src={StandardChecked} />
+                <Image src={StandardChecked} h={"20px"}/>
                 <Text>Certificate of Completion</Text>
               </Flex>
+              <Flex alignItems={"center"} gap={"10px"} mb="5px">
+              <Image src={StandardChecked} h={"20px"}/>
+              <Text>3 months paid internship placement</Text>
+            </Flex>
+              
             </Flex>
           </Flex>
 

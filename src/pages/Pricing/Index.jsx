@@ -13,7 +13,7 @@ const Index = () => {
             Embrace Boundless Learning At <br></br> A Budget
           </Text>
           <Text fontSize={"20px"} maxW={"900px"} margin={"auto"}>
-            Discover affordable pricing options at Divvicson Tech Academy,
+            Discover affordable pricing options at Intellio Tech Academy,
             empowering you to unleash your full potential in tech with
             accessible and value-packed learning plans. Enroll now and embark on
             your transformative tech journey.

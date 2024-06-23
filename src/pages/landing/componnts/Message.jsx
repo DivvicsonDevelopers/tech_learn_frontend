@@ -31,7 +31,7 @@ const Message = () => {
           </Text>
           <Text maxW={"600px"}>
             Join us in this exclusive video where our CEO shares insights into
-            our Divvicson’s journey, values, and unwavering dedication to
+            our Intellio&apos;s journey, values, and unwavering dedication to
             delivering excellence. Gain a deeper understanding of our mission
             and vision as we pave the path for a brighter future together.
           </Text>
