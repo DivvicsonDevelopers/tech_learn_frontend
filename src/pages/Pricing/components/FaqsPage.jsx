@@ -26,8 +26,10 @@ const FaqsPage = () => {
         bg={"#FFFFFF"}
         rounded={"lg"}
         w={["100%", "100%", "100%", "100%"]}
-        h="fit-content"
-        // overflowY="scroll"
+        h="500px"
+        px="20px"
+        outline={"none"}
+        overflowY="scroll"
       >
         {faqData.map((faq, index) => (
           <Accordion w={"100%"} key={index} allowMultiple>
