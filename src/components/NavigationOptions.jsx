@@ -88,22 +88,22 @@ function NavigationOptions({ title }) {
                     flexDir={"column"}
                     fontSize={"15px"}
                   >
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Web Development</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Data Science</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Mobile App Development</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>UI/UX Design</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Cybersecurity</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Product Management</Text>
                     </Link>
                   </Flex>
@@ -113,16 +113,16 @@ function NavigationOptions({ title }) {
                     flexDir={"column"}
                     fontSize={"15px"}
                   >
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>DevOps</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Social Media Marketing</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>Software Engineering</Text>
                     </Link>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Text>User Experience Engneering</Text>
                     </Link>
                   </Flex>
@@ -134,7 +134,7 @@ function NavigationOptions({ title }) {
                 <Flex gap={"20px"} w="100%" mb="5px" alignItems={"center"}>
                   <Image src={Web} h={"70px"} />
                   <Box color={"#B88A68"}>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Flex alignItems={"center"}>
                         <Text fontSize={"15px"}>
                           Web Development
@@ -150,7 +150,7 @@ function NavigationOptions({ title }) {
                 <Flex gap={"20px"} w="100%" mb="5px" alignItems={"center"}>
                   <Image src={Design} h={"70px"} />
                   <Box color={"#B88A68"}>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Flex alignItems={"center"}>
                         <Text fontSize={"15px"}>
                           Product Design
@@ -166,7 +166,7 @@ function NavigationOptions({ title }) {
                 <Flex gap={"20px"} w="100%" align={"center"}>
                   <Image src={Management} h={"70px"} />
                   <Box color={"#B88A68"}>
-                    <Link to={"/pre-login"}>
+                    <Link to={"https://user.intellio.academy/"}>
                       <Flex align={"center"}>
                         <Text fontSize={"15px"}>
                           Product Management
@@ -204,19 +204,19 @@ function NavigationOptions({ title }) {
                   flexDir={"column"}
                   fontSize={"15px"}
                 >
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Video Lectures</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Interactive Quizzes</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Practical Projects</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Learning Materials</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Case Studies</Text>
                   </Link>
                 </Flex>
@@ -226,10 +226,10 @@ function NavigationOptions({ title }) {
                   flexDir={"column"}
                   fontSize={"15px"}
                 >
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Webinars and Workshops</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Tech Articles</Text>
                   </Link>
                 </Flex>
@@ -257,19 +257,19 @@ function NavigationOptions({ title }) {
                   flexDir={"column"}
                   fontSize={"15px"}
                 >
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Tech Pathways</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Course Syllabus</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Learning Tracks</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Course Outlines</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Project-Based Learning</Text>
                   </Link>
                 </Flex>
@@ -279,10 +279,10 @@ function NavigationOptions({ title }) {
                   flexDir={"column"}
                   fontSize={"15px"}
                 >
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Accessment Methods</Text>
                   </Link>
-                  <Link to={"/pre-login"}>
+                  <Link to={"https://user.intellio.academy/"}>
                     <Text>Certification Details</Text>
                   </Link>
                 </Flex>

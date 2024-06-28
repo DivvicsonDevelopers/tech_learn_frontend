@@ -1,7 +1,7 @@
-import { Box, Flex, Text } from '@chakra-ui/react'
-
+import { Box, Flex, Text } from "@chakra-ui/react";
 
 const Message = () => {
+ 
   return (
     <Box
       p={["20px 30px", "20px 30px", "20px 30px", "20px 150px"]}
@@ -20,12 +20,21 @@ const Message = () => {
           data-aos="fade-right"
           data-aos-duration="700"
           data-aos-delay="150"
-          bg={"red"}
-        ></Box>
+          
+        >
+          <iframe
+            title="Sample iframe"
+            width="400"
+            height="300"
+            src="https://www.youtube.com/embed/cNLTZOQjGyY"
+            // src="https://www.youtube.com/embed/eI4an8aSsgw">
+            frameBorder="0"
+            allowFullScreen
+            
+          />
+        </Box>
 
-        <Box   data-aos="fade-left"
-      data-aos-duration="700"
-      data-aos-delay="150">
+        <Box data-aos="fade-left" data-aos-duration="700" data-aos-delay="150">
           <Text fontSize={"30px"} fontWeight={"500"} pb="30px">
             A Personal Message From Our CEO
           </Text>
@@ -39,6 +48,6 @@ const Message = () => {
       </Flex>
     </Box>
   );
-}
+};
 
-export default Message
+export default Message;
